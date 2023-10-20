@@ -1,33 +1,30 @@
-/* Reset some default styles and set a background color */
+/* Basic styling, feel free to customize */
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f1f1f1;
 }
 
-/* Style the header with your name and tagline */
 header {
+    text-align: center;
     background-color: #333;
     color: #fff;
-    text-align: center;
     padding: 20px;
 }
 
-/* Style the navigation menu */
 nav {
-    background-color: #333;
+    background-color: #444;
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
+    list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 nav li {
     display: inline;
-    margin-right: 20px;
+    margin: 10px;
 }
 
 nav a {
@@ -35,30 +32,20 @@ nav a {
     color: #fff;
 }
 
-/* Style the main sections */
 section {
-    margin: 20px;
     padding: 20px;
-    background-color: #fff;
 }
 
-/* Style the project sections in the portfolio */
 .project {
-    margin-bottom: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-.project img {
-    max-width: 100%;
-}
-
-/* Media query for responsive design */
-@media screen and (max-width: 768px) {
-    nav ul {
-        text-align: center;
-    }
-
-    nav li {
-        display: block;
-        margin: 10px 0;
-    }
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
 }
