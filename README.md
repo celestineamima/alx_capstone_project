@@ -33,9 +33,36 @@ Domain Name: Choose a domain name that's easy to remember and preferably your na
 Hosting: Select a reliable hosting provider to ensure your website is always accessible to visitors.
 
 
+# SetUp / Installation Requirements
+Prerequisites
+python3
+pip
+virtual
+env
+Requirements.txt
 
+# Running the Application
+* Creating the virtual environment
 
+```
+python3 -m venv --without-pip virtual
+```
 
+```
+source virtual/bin/activate
+```
+
+* Install pip to your virtual  
+
+```
+curl https://bootstrap.pypa.io/get-pip.py | python
+```
+
+```
+pip install -r requirements.txt
+```
+
+,
 # Technologies and tools used to build a personal portfolio website:
 
 Website Builders:
